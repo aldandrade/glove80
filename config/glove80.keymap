@@ -11,7 +11,7 @@
  * This file was generated automatically. You may or may not want to
  * edit it directly.
  */
-
+/* adding anything just to build it */
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/outputs.h>
 
