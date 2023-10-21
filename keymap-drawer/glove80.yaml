@@ -209,7 +209,7 @@ layers:
   - ''
   - ''
   - Boot
-  - '&reset'
+  - Reset
   - ''
   - ''
   - ''
@@ -226,7 +226,7 @@ layers:
   - ''
   - ''
   - ''
-  - '&reset'
+  - Reset
   - {type: held}
   - ''
   - ''
