@@ -102,7 +102,7 @@ layers:
   - KP NUM
   - KP EQUAL
   - KP SLASH
-  - KP MULTIPLY
+  - SCROLLLOCK
   - PRINTSCREEN
   - {t: '$$mdi:transfer$$', type: trans}
   - ''
@@ -110,12 +110,12 @@ layers:
   - UP ARROW
   - End
   - $$mdi:volume-low$$
-  - )
   - '&mwh SCROLL_HOR(-100)'
+  - {t: '$$mdi:numeric-1$$', h: '$$mdi:mouse$$'}
   - {t: '$$mdi:arrow-up$$', h: '$$mdi:mouse$$'}
-  - '&mwh SCROLL_HOR(100)'
+  - {t: '$$mdi:numeric-2$$', h: '$$mdi:mouse$$'}
   - {t: '$$mdi:arrow-up$$', h: '$$mdi:tire$$'}
-  - SCROLLLOCK
+  - {t: '$$mdi:arrow-up$$', h: '$$mdi:tire$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - ''
   - LEFT ARROW
@@ -141,9 +141,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:numeric-3$$', h: '$$mdi:mouse$$'}
   - ','
-  - KP 1
+  - '&mwh SCROLL_HOR(-100)'
   - KP 2
-  - KP 3
+  - '&mwh SCROLL_HOR(100)'
   - KP ENTER
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '&rgb_ug_status_macro', h: Magic}
