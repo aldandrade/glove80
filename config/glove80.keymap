@@ -375,11 +375,11 @@ macros {
         layer_Lower {
             bindings = <
          &kp C_BRI_DN  &kp C_BRI_UP      &kp C_PREV      &kp C_NEXT         &kp C_PP                                                                                       &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP            &none  &kp PAUSE_BREAK
-               &trans         &none           &none           &none            &none      &kp HOME                                                   &kp LEFT_PARENTHESIS  &kp KP_NUM  &kp KP_EQUAL  &kp KP_SLASH  &kp KP_MULTIPLY  &kp PRINTSCREEN
-               &trans         &none        &kp HOME    &kp UP_ARROW          &kp END    &kp C_MUTE                                                  &kp RIGHT_PARENTHESIS   U_WH_L        U_MS_U       U_WH_R        U_WH_U   &kp SCROLLLOCK
-               &trans         &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp C_VOL_UP                                                            &kp PERCENT   U_MS_L        U_MS_D       U_MS_R        U_WH_D            &none
-               &trans     &kp K_APP           &none         &kp F11          &kp F12  &kp C_VOL_DN  &trans  &trans   &to 0  &trans  &trans  U_BTN3              &kp COMMA   &kp KP_N1     &kp KP_N2    &kp KP_N3     &kp KP_ENTER           &trans
- &magic LAYER_Magic 0      &kp CAPS         &kp INS         &kp F11          &kp F12                &trans  &trans  &trans  &trans  U_BTN2  U_BTN1                          &kp KP_N0     &kp KP_N0    &kp KP_DOT    &kp KP_ENTER           &trans
+               &trans         &none           &none           &none            &none      &kp HOME                                                   &kp LEFT_PARENTHESIS  &kp KP_NUM  &kp KP_EQUAL  &kp KP_SLASH  &kp SCROLLLOCK  &kp PRINTSCREEN
+               &trans         &none        &kp HOME    &kp UP_ARROW          &kp END    &kp C_MUTE                                                    U_WH_L        U_BTN1        U_MS_U       U_BTN2       U_WH_U   U_WH_U
+               &trans         &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp C_VOL_UP                                                    &kp PERCENT   U_MS_L        U_MS_D       U_MS_R        U_WH_D      &none
+               &trans     &kp K_APP           &none         &kp F11          &kp F12  &kp C_VOL_DN  &trans  &trans   &to 0  &trans  &trans  U_BTN3    &kp COMMA     U_WH_L        &kp KP_N2    U_WH_R     &kp KP_ENTER       &trans
+ &magic LAYER_Magic 0      &kp CAPS         &kp INS         &kp F11          &kp F12                &trans  &trans  &trans  &trans  U_BTN2  U_BTN1             &kp KP_N0     &kp KP_N0    &kp KP_DOT    &kp KP_ENTER      &trans
             >;
         };
 
